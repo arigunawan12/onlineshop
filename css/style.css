@@ -1,0 +1,87 @@
+.banner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/banner.jpg");
+}
+.warna1 {
+  background-color: #ecf8f8;
+}
+
+.warna2 {
+  background-color: #eee4e1;
+}
+
+.warna3 {
+  background-color: #e7d8c9;
+}
+
+.warna4 {
+  background-color: #e6beae;
+}
+
+.warna5 {
+  background-color: #b2967d;
+}
+
+.highlighted-kategori {
+  height: 250px;
+}
+
+.highlighted-kategori ~ a {
+  text-decoration: none;
+}
+.highlighted-kategori ~ a:hover {
+  color: blue;
+}
+.decoration-none {
+  text-decoration: none;
+  color: white;
+}
+
+.decoration-none:hover {
+  color: blue;
+}
+
+.kategori_1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/baju1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori_2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/baju2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori_3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/baju3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.text-harga {
+  font-size: 20px;
+  color: #e6beae;
+}
+.image-box {
+  height: 250px;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.content-subscribe {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content-subscribe a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.banner-produk {
+  height: 45vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/banner.jpg");
+}

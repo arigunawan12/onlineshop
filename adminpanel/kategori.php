@@ -80,7 +80,7 @@ if(isset($_POST['simpan_kategori'])){
     </thead>
     <tbody><?php
     if($jumlahkategori == 0){ ?>
-        <tr><td colspan="3">Tidak ada data Kategori</td></tr><?php
+        <tr><td colspan="3" class="text-center">Tidak ada data Kategori</td></tr><?php
     }; 
       $number =1;
       while($data = mysqli_fetch_array($queryKategori)){
