@@ -56,7 +56,7 @@ $queryProduk = mysqli_query($con, "SELECT id, nama, harga, foto, detail FROM pro
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 </div>
 <!-- Tentang Kami -->
 <div class="container-fluid warna3">

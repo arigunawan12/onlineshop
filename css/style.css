@@ -54,7 +54,7 @@
 }
 
 .kategori_3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/baju3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/sepatu.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -79,6 +79,17 @@
 
 .content-subscribe a {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.banner-produk {
+  height: 45vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/banner.jpg");
+}
+
+.produk-terkait-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .banner-produk {
